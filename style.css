@@ -1,0 +1,81 @@
+:root{
+    --color-P: #468189;
+    --color-S: #77ACA2;
+    --color-A: #031926;
+    --color-Aop: rgba(3,25,38,0.5)
+}
+
+*{
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.color-P{
+    color: var(--color-P);
+}
+
+.bg-P{
+    background-color: var(--color-P);
+}
+
+.bg-S {
+    background-color: var(--color-S);
+}
+
+
+.bg-A {
+    background-color: var(--color-A);
+}
+
+.title-font{
+    font-family: "Ojuju", sans-serif;
+    font-style: normal;
+}
+
+.transition{
+    transition: 1s;
+}
+
+/* NAVBAR  */
+.nav-scrolled {
+    margin: 1vh 25vw;
+    background-color: var(--color-Aop) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.navLinksRight {
+    margin-right: 0px !important;
+}
+
+/* HEADER  */
+
+.masthead{
+    background-color: var(--color-P);
+}
+
+.boxQuote{
+    height: 25vh;
+}
+
+
+/* CATEGORIE  */
+
+.img-category{
+    width: 100%;
+    border-bottom: 15px solid var(--color-P);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px;
+}
+
+
+/* SEZIONE NUMERI  */
+
+.boxNumeri{
+    height: 150px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 10px solid var(--color-P);
+}
