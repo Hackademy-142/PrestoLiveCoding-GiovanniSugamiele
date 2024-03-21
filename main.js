@@ -1,4 +1,3 @@
-
 // EVENTO SCROLL
 let navbar = document.querySelector(".navbar")
 let navbarNav = document.querySelector(".navbar-nav")
@@ -101,11 +100,11 @@ let cardsWrapper = document.querySelector("#cardsWrapper")
 
     let tempo = 500;
     prodottiTech.forEach( (articoli, i)=>{
-        if(i >=  prodottiTech.length - 3 ){
+        if(i >=  prodottiTech.length - 5 ){
             let col = document.createElement("div");
-            col.classList.add("col-12", "col-md-4", "my-5", "mx-auto")
+            col.classList.add("col-12", "col-md-4", "my-5")
             col.innerHTML = `
-                <div data-aos="flip-left" data-aos-delay="${tempo}" class="card position-relative h-100" >
+                <div data-aos="flip-left" data-aos-delay="${tempo}" class="card position-relative h-100">
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger z-2">NEW</span>
                 <div class="overflow-hidden">
                 <img src=${articoli.immagine} class="img-card card-img-top" alt="...">
@@ -123,9 +122,10 @@ let cardsWrapper = document.querySelector("#cardsWrapper")
             </div>
             </div>
             `
-            cardsWrapper.appendChild(col)
-            tempo = tempo + 100;
+            cardsWrapper.appendChild(col);
+            tempo = tempo + 100
             console.log(tempo);
         }
     } );
+
 
