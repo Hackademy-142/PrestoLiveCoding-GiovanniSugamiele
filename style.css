@@ -38,11 +38,16 @@
 }
 
 /* NAVBAR  */
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+.navbar-toggler {
+    border: none !important;
+}
 .nav-scrolled {
-    margin: 1vh 25vw;
     background-color: var(--color-Aop) !important;
     backdrop-filter: blur(10px);
-    border-radius: 20px;
 }
 
 .navLinksRight {
@@ -55,11 +60,6 @@
     background-color: var(--color-P);
 }
 
-.boxQuote{
-    height: 25vh;
-}
-
-
 /* CATEGORIE  */
 
 .img-category{
@@ -70,6 +70,11 @@
     padding: 0px;
 }
 
+.hover:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
+
 
 /* SEZIONE NUMERI  */
 
@@ -78,4 +83,14 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom: 10px solid var(--color-P);
+}
+
+
+@media screen and (min-width: 992px){
+    .nav-scrolled {
+        margin: 1vh 19vw;
+        background-color: var(--color-Aop) !important;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+    }
 }
