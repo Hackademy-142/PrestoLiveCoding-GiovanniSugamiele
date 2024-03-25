@@ -1,0 +1,92 @@
+[
+  {
+    "categoria": "Smartphone",
+    "marca": "Samsung",
+    "modello": "Galaxy S22",
+    "valuta":"€",
+    "prezzo": 899.99,
+    "disponibilità": true,
+    "descrizione": "Ultimo modello di smartphone Samsung con fotocamera avanzata e prestazioni elevate."
+  },
+  {
+    "categoria": "Laptop",
+    "marca": "Apple",
+    "modello": "MacBook Pro",
+    "valuta":"€",
+    "prezzo": 1499.99,
+    "disponibilità": true,
+    "descrizione": "Potente laptop Apple con display Retina e processore Intel Core di ultima generazione."
+  },
+  {
+    "categoria": "Smart TV",
+    "marca": "LG",
+    "modello": "OLED C1",
+    "valuta":"€",
+    "prezzo": 1999.99,
+    "disponibilità": false,
+    "descrizione": "TV OLED con tecnologia 4K per una qualità dell'immagine eccezionale e audio immersivo."
+  },
+  {
+    "categoria": "Tablet",
+    "marca": "Microsoft",
+    "modello": "Surface Pro 8",
+    "valuta":"€",
+    "prezzo": 1099.99,
+    "disponibilità": true,
+    "descrizione": "Tablet convertibile con Windows 11 e supporto per Surface Pen."
+  },
+  {
+    "categoria": "Console",
+    "marca": "Sony",
+    "modello": "PlayStation 5",
+    "valuta":"€",
+    "prezzo": 499.99,
+    "disponibilità": false,
+    "descrizione": "La nuova generazione di console PlayStation con grafica ad alta definizione e tempi di caricamento veloci."
+  },
+  {
+    "categoria": "Monitor",
+    "marca": "Dell",
+    "modello": "UltraSharp U2720Q",
+    "valuta":"€",
+    "prezzo": 599.99,
+    "disponibilità": true,
+    "descrizione": "Monitor 4K con ampio angolo di visualizzazione e calibrazione del colore professionale."
+  },
+  {
+    "categoria": "Cuffie",
+    "marca": "Bose",
+    "modello": "Noise Cancelling Headphones 700",
+    "valuta":"€",
+    "prezzo": 379.99,
+    "disponibilità": true,
+    "descrizione": "Cuffie wireless con cancellazione del rumore regolabile e assistente vocale integrato."
+  },
+  {
+    "categoria": "Drone",
+    "marca": "DJI",
+    "modello": "Mavic Air 2",
+    "valuta":"€",
+    "prezzo": 799.99,
+    "disponibilità": true,
+    "descrizione": "Drone pieghevole con fotocamera 4K e funzioni di volo intelligenti."
+  },
+  {
+    "categoria": "Fotocamera",
+    "marca": "Canon",
+    "modello": "EOS R6",
+    "valuta":"€",
+    "prezzo": 2499.99,
+    "disponibilità": true,
+    "descrizione": "Fotocamera mirrorless con stabilizzazione dell'immagine integrata e video 4K."
+  },
+  {
+    "categoria": "Mouse",
+    "marca": "Logitech",
+    "modello": "MX Master 3",
+    "valuta":"€",
+    "prezzo": 99.99,
+    "disponibilità": true,
+    "descrizione": "Mouse wireless avanzato con scorrimento ultraveloce e personalizzazione dei pulsanti."
+  }
+]
